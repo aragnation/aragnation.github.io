@@ -40,10 +40,6 @@ Aragnation has six features.
 
 Devi and Abhishek have collaborated on dozens of projects since 2015. Many in AI, some in art, and some unrelated to either AI or art. Abhishek first introduced Devi to generative art in 2018!
 
-### Abhishek Das
-
-In his day job, Abhishek Das is an artificial intelligence researcher, i.e., he builds algorithms to mimic intelligence or the biological brain. Much like that, his art explores algorithms to mimic textures from the physical world – paper, ink, cloth, sand, paintings.
-
 ### Devi Parikh
 
 Devi Parikh is an AI researcher and a generative artist. She also makes [Macrame][macrame], [Origami][origami], and maintains a physical sketchbook with kawaii doodles, zentangles, mandalas, paper cutting and sketches. 
@@ -57,6 +53,10 @@ She was born in Tulsa, Oklahoma, USA. But you wouldn't guess from her name, how 
 She has dabbled in sketching, painting, origami, dancing, music all her life -- she was decent at some of this, not so much at the rest :) She was first introduced to AI in 2003 in junior year of college and has worked in AI since. She was first introduced to generative art by a friend in 2018, when her day-job presented fewer opportunities to be hands-on with code. Generative art scratched the itch to code as well as explore AI for creativity.
 
 Find out more about Devi's art at [http://stateoftheheart.ai/][soth]. You can also find her on [Twitter][tw], [Instagram][insta], [Foundation][fnd] and [fxhash][fxhash]. 
+
+### Abhishek Das
+
+In his day job, Abhishek Das is an artificial intelligence researcher, i.e., he builds algorithms to mimic intelligence or the biological brain. Much like that, his art explores algorithms to mimic textures from the physical world – paper, ink, cloth, sand, paintings.
 
 ## The Visuals
 
