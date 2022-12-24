@@ -25,6 +25,16 @@ In a refreshing contrast to the gravity of the role AI technology is playing in 
 
 No GPUs were harmed in the making of Aragnation. All AI models are entirely different architectures than those commonly used, and have been designed and trained from scratch by the artists.
 
+## The Models
+
+Aragnation uses two AI models. One model learns the composition of images, and the other learns the color gradients in images.
+
+The first is a probabilistic graphical model (not a neural network) that explicitly performs probabilistic reasoning to generate an image. It has learned to compose 25 prototype shapes and 17 colors to generate its interpretation of landscapes, flowers, birds, and urban settings. These prototype shapes and colors are also learned from data.
+
+The second is a small neural network (a multilayer perceptron in particular) that has learned to map image (x,y) coordinates to RGB colors, and is used to predict the saturation of colors in some of the pieces. 
+
+Intersting tidbit: Aragnation is an anagram of “No-GAN AI Art", where "GAN" is used to symbolize not just GANs but also transformers and diffusion models – techniques which are commonly used in the recently popularized image generation AI technology.
+
 ## The Features
 
 Aragnation has six features.
