@@ -60,13 +60,23 @@ She gets energy out of creative expression. Some of it through her art -- both d
 
 She was born in Tulsa, Oklahoma, USA. But you wouldn't guess from her name, how she looks, or how she sounds. She has lived in Riyadh, Saudi Arabia. She grew up in Ahmedabad, India. She currently lives in San Francisco, USA. She has an abysmal sense of space and orientation. She has an excellent sense of time. She hates small talk. She loves deep connections with people. She appeared in Forbes' list of 20 "Incredible Women Advancing A.I. Research". 
 
-She has dabbled in sketching, painting, origami, dancing, music all her life -- she was decent at some of this, not so much at the rest :) She was first introduced to AI in 2003 in junior year of college and has worked in AI since. She was first introduced to generative art by a friend in 2018, when her day-job presented fewer opportunities to be hands-on with code. Generative art scratched the itch to code as well as explore AI for creativity.
+She has dabbled in sketching, painting, origami, dancing, music all her life -- she was decent at some of this, not so much at the rest :) She was first introduced to AI in 2003 in junior year of college and has worked in AI since. She was introduced to generative art in 2018, when her day-job presented fewer opportunities to be hands-on with code. Generative art scratched the itch to code as well as explore AI for creativity.
 
 Find out more about Devi's art at [http://stateoftheheart.ai/][soth]. You can also find her on [Twitter][tw], [Instagram][insta], [Foundation][fnd] and [fxhash][fxhash]. 
 
 ### Abhishek Das
 
-In his day job, Abhishek Das is an artificial intelligence researcher, i.e., he builds algorithms to mimic intelligence or the biological brain. Much like that, his art explores algorithms to mimic textures from the physical world – paper, ink, cloth, sand, paintings.
+Abhishek Das is a scientist working on using artificial intelligence for discovering catalysts that can enable large-scale renewable energy storage, as part of the [Open Catalyst Project](https://opencatalystproject.org/).
+
+Abhishek was born and raised in New Delhi, India, and moved to the United States in 2016 for his PhD. He first learnt how to write code back in middle school, and his first project was a graph plotting library written in C++. At the time, the results had felt magical — the program could visualize almost any function! He has been in awe of the power of software ever since.
+
+Abhishek's favorite stress-buster is playing the piano; he is a trained pianist and has been playing since he was 5. In a parallel universe, he'd be teaching music. Some day!
+
+He has admired generative art and artists from the sidelines for years. What he finds fascinating about generative art is that the core ideas and constraints are simple, but there's infinite room for randomness to take over and for complexity to emerge.
+
+Inspired by Devi's enthusiasm, he recently decided to take the plunge into generative art. His art explores algorithms that mimic textures from the physical world — paper, ink, cloth, sand, water — which sometimes come together in unexpected, otherworldly ways to create beautiful outputs. Aragnation has hints of this.
+
+More about Abhishek on [his webpage](https://abhishekdas.com). He is also on [Twitter](https://twitter.com/abhshkdz).
 
 ## The Visuals
 
