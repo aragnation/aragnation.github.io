@@ -9,7 +9,7 @@ permalink: /
 
 # Aragnation
 
-Aragnation is a long-form generative art project by [Devi Parikh][devi] and [Abhishek Das][das] on [ArtBlocks][artblocks].  
+Aragnation is a long-form AI generative art project by [Devi Parikh][devi] and [Abhishek Das][das] on [ArtBlocks][artblocks].  
 
 <img class="inline-pic" src="static/img/aragnation_collage.png">
 
