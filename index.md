@@ -132,11 +132,11 @@ Below are several Aragnations.
 [devi]: http://stateoftheheart.ai/
 [das-photos]: https://www.instagram.com/abhshkdz/
 [aragnation]: https://deviparikh.github.io/aragnation/
-[sketchbook]: https://www.cc.gatech.edu/~parikh/sketchbook.html
-[macrame]: https://www.cc.gatech.edu/~parikh/macrame.html
-[origami]: https://www.cc.gatech.edu/~parikh/origami.html
+[sketchbook]: https://deviparikh.com/sketchbook.html
+[macrame]: https://deviparikh.com/yarn.html
+[origami]: https://deviparikh.com/origami.html
 [soth]: http://stateoftheheart.ai/ 
-[devi]: https://www.cc.gatech.edu/~parikh/
+[devi]: https://deviparikh.com/
 [tw]: https://twitter.com/deviparikh
 [insta]: https://www.instagram.com/deviparikh/
 [fnd]: https://foundation.app/@deviparikh

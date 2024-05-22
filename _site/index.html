@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="keywords" content="Generative Art, AI Art, Devi Parikh, Abhishek Das">
+
+  <!--<link rel="shortcut icon" href="static/img/devi/devi.png">-->
+  <link rel="shortcut icon" href="static/img/aragnation.png">
+
+
+
+  <title>Aragnation</title>
+  <!--<meta name="description" content="Aragnation | AI Generative Art">-->
+  <meta name="description" content="An AI Generative Art Project by Devi Parikh & Abhishek Das">
+
+  <!--Open Graph Related Stuff-->
+  <meta property="og:title" content="Devi Parikh & Abhishek Das"/>
+  <meta property="og:url" content="https://aragnation.github.io/"/>
+  <meta property="og:description" content="An AI Generative Art Project by Devi Parikh & Abhishek Das"/>
+  <meta property="og:site_name" content="Aragnation"/>
+  <meta property="og:image" content="https://aragnation.github.io/static/img/aragnation.png"/>
+  <meta property="og:image:url" content="https://aragnationgithub.io/static/img/aragnation.png"/>
+
+  <!--Twitter Card Stuff-->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Aragnation"/>
+  <!--<meta name="twitter:description" content="Aragnation | AI Generative Art"/>-->
+  <meta name="twitter:description" content="An AI Generative Art Project by Devi Parikh & Abhishek Das"/>
+  <meta name="twitter:image" content="https://aragnation.github.io/static/img/caragnation.png"/>
+  <meta name="twitter:url" content="https://aragnation.github.io"/>
+  
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/main.css" media="screen,projection">
+  <link rel="stylesheet" type="text/css" href="static/css/custom.css" media="screen,projection">
+</head>
+
+  
+  <!--Open Graph Related Stuff-->
+  <!--<meta property="og:title" content="An AI Generative Art Project by Devi Parikh & Abhishek Das"/>-->
+  <!--<meta property="og:url" content="/"/>-->
+  <!--<meta property="og:site_name" content="An AI Generative Art Project by Devi Parikh & Abhishek Das"/>-->
+  <!--<meta property="og:image" content="static/img/aragnation.png"/>-->
+  <!--<meta property="og:image:url" content="static/img/aragnation.png"/>-->
+
+  <!--Twitter Card Stuff-->
+  <!--<meta name="twitter:title" content="An AI Generative Art Project by Devi Parikh & Abhishek Das"/>-->
+  <!--<meta name="twitter:image" content="static/img/aragnation.png"/>-->
+  <!--<meta name="twitter:description" content="Aragnation | AI Generative Art"/>-->
+
+  <body>
+
+    <!-- Not empty -->
+
+
+    <div class="container">
+      <!-- <div class="page-header"></div> -->
+      <!-- <div class="page-header" id="banner">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>
+              An AI Generative Art Project by Devi Parikh & Abhishek Das
+              
+              
+            </h1>
+            <p class="lead authors"></p>
+          </div>
+        </div>
+      </div> -->
+      <div class="page-content">
+          <div class="pub">
+<h1 id="aragnation">Aragnation</h1>
+
+<p>Aragnation is a long-form generative art project by <a href="https://www.cc.gatech.edu/~parikh/">Devi Parikh</a> and <a href="https://abhishekdas.com/art/">Abhishek Das</a> on <a href="https://www.artblocks.io/">ArtBlocks</a>.</p>
+
+<p><img class="inline-pic" src="static/img/aragnation_collage.png" /></p>
+
+<h2 id="the-concept">The Concept</h2>
+
+<p>Aragnation questions preconceived notions of what AI art can be. Does AI art have to be powered by giant neural networks? Do the aesthetics have to be that of photos or paintings or collages of pieces thereof?</p>
+
+<p>Aragnation uses tiny AI models and constructs abstract imagery in the vocabulary of abstract blobs and organic textures rather than pixels. It is playful with colors. It has a hint of a watercolor and art paper aesthetic.</p>
+
+<p>The training data includes photographs taken by one of the artists, Abhishek.  The generated pieces thus capture, in broad strokes, <a href="https://www.instagram.com/abhshkdz/">Abhishek’s photography</a> – nature, landscapes and urban settings.</p>
+
+<p>In a refreshing contrast to the gravity of the role AI technology is playing in content creation and creative expression, Aragnation brings a light and joyful touch to generative AI art.</p>
+
+<p>No GPUs were harmed in the making of Aragnation. All AI models are entirely different architectures than those commonly used, and have been designed and trained from scratch by the artists.</p>
+
+<h2 id="the-models">The Models</h2>
+
+<p>Aragnation uses two AI models. One model learns the composition of images, and the other learns the color gradients in images.</p>
+
+<p>The first is a probabilistic graphical model (not a neural network) that explicitly performs probabilistic reasoning to generate an image. It has learned to compose 25 prototype shapes and 17 colors to generate its interpretation of landscapes, flowers, birds, and urban settings. These prototype shapes and colors are also learned from data.</p>
+
+<p>The second is a small neural network (a multilayer perceptron in particular) that has learned to map image (x,y) coordinates to RGB colors, and is used to predict the saturation of colors in some of the pieces.</p>
+
+<p>Intersting tidbit: Aragnation is an anagram of “No-GAN AI Art”, where “GAN” is used to symbolize not just GANs but also transformers and diffusion models – techniques which are commonly used in the recently popularized image generation AI technology.</p>
+
+<h2 id="the-features">The Features</h2>
+
+<p>Aragnation has six features.</p>
+
+<ol>
+  <li>Paper: The background paper is one of four styles – graph, rods and cones, marble, and fabric</li>
+  <li>Colors: The colors are either sampled using an AI model or randomly for a more playful aesthetic</li>
+  <li>Palette: One of fourteen palettes partially curated by the AI model</li>
+  <li>Subject: An AI model assigns the generated piece to one of four categories – flower, bird, urban and landscape</li>
+  <li>Texture: The texture of a piece is either plain or has a gradient generated using an AI model</li>
+  <li>Reflection: Some of the pieces have added depth to them via a horizontal reflection</li>
+</ol>
+
+<h2 id="the-artists">The Artists</h2>
+
+<p>Devi and Abhishek have collaborated on dozens of projects since 2015. Many in AI, some in art, and some unrelated to either AI or art. Abhishek first introduced Devi to generative art in 2018!</p>
+
+<h3 id="devi-parikh">Devi Parikh</h3>
+
+<p>Devi Parikh is an AI researcher and a generative artist. She also makes <a href="https://www.cc.gatech.edu/~parikh/macrame.html">Macrame</a>, <a href="https://www.cc.gatech.edu/~parikh/origami.html">Origami</a>, and maintains a physical sketchbook with kawaii doodles, zentangles, mandalas, paper cutting and sketches.</p>
+
+<p>While evolving, her generative art so far has tended to have vibrant colors, geometric patterns, symmetries, and crisp textures co-existing with organic shapes. She gets inspiration from a variety of sources – some mundane, some exotic; some traditional, some unexpected; some specific, some diffused – colors in rare stones, textures in snake skins, graffiti, wall art, digital illustrations, acrylic pouring, mandalas, ethnic fabrics, looking out the window during a long taxi ride, Indian culture, or feedback from a trusted friend. She maintains an ever growing list of ideas – ranging from small tweaks to an existing project to entirely new projects or styles. Her process involves starting with an idea, prototyping the core of it to see if it feels right, and then iterating, iterating, iterating. The joy and mystery is in seeing where the iterations lead!</p>
+
+<p>She gets energy out of creative expression. Some of it through her art – both digital and analog. Some of it through her research in AI. In fact, the two intersect – part of her work is on developing AI that can enhance human creativity – give people new tools for creative expression.</p>
+
+<p>She was born in Tulsa, Oklahoma, USA. But you wouldn’t guess from her name, how she looks, or how she sounds. She has lived in Riyadh, Saudi Arabia. She grew up in Ahmedabad, India. She currently lives in San Francisco, USA. She has an abysmal sense of space and orientation. She has an excellent sense of time. She hates small talk. She loves deep connections with people. She appeared in Forbes’ list of 20 “Incredible Women Advancing A.I. Research”.</p>
+
+<p>She has dabbled in sketching, painting, origami, dancing, music all her life – she was decent at some of this, not so much at the rest :) She was first introduced to AI in 2003 in junior year of college and has worked in AI since. She was introduced to generative art in 2018, when her day-job presented fewer opportunities to be hands-on with code. Generative art scratched the itch to code as well as explore AI for creativity.</p>
+
+<p>Find out more about Devi’s art at <a href="http://stateoftheheart.ai/">http://stateoftheheart.ai/</a>. You can also find her on <a href="https://twitter.com/deviparikh">Twitter</a>, <a href="https://www.instagram.com/deviparikh/">Instagram</a>, <a href="https://foundation.app/@deviparikh">Foundation</a> and <a href="https://www.fxhash.xyz/u/Devi%20Parikh">fxhash</a>.</p>
+
+<h3 id="abhishek-das">Abhishek Das</h3>
+
+<p>Abhishek Das is a scientist working on using artificial intelligence for discovering catalysts that can enable large-scale renewable energy storage, as part of the <a href="https://opencatalystproject.org/">Open Catalyst Project</a>.</p>
+
+<p>Abhishek was born and raised in New Delhi, India, and moved to the United States in 2016 for his PhD. He first learnt how to write code back in middle school, and his first project was a graph plotting library written in C++. At the time, the results had felt magical — the program could visualize almost any function! He has been in awe of the power of software ever since.</p>
+
+<p>Abhishek’s favorite stress-buster is playing the piano; he is a trained pianist and has been playing since he was 5. In a parallel universe, he’d be teaching music. Some day!</p>
+
+<p>He has admired generative art and artists from the sidelines for years. What he finds fascinating about generative art is that the core ideas and constraints are simple, but there’s infinite room for randomness to take over and for complexity to emerge.</p>
+
+<p>Inspired by Devi’s enthusiasm, he recently decided to take the plunge into generative art. His art explores algorithms that mimic textures from the physical world — paper, ink, cloth, sand, water — which sometimes come together in unexpected, otherworldly ways to create beautiful outputs. Aragnation has hints of this.</p>
+
+<p>More about Abhishek on <a href="https://abhishekdas.com">his webpage</a>. He is also on <a href="https://twitter.com/abhshkdz">Twitter</a>.</p>
+
+<h2 id="the-visuals">The Visuals</h2>
+
+<p>Below are several Aragnations.</p>
+
+<div class="art">
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_01.jpg"><img src="./static/img/aragnation_01.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_02.jpg"><img src="./static/img/aragnation_02.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_03.jpg"><img src="./static/img/aragnation_03.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_04.jpg"><img src="./static/img/aragnation_04.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_05.jpg"><img src="./static/img/aragnation_05.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_06.jpg"><img src="./static/img/aragnation_06.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_07.jpg"><img src="./static/img/aragnation_07.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_08.jpg"><img src="./static/img/aragnation_08.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_09.jpg"><img src="./static/img/aragnation_09.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_10.jpg"><img src="./static/img/aragnation_10.jpg" alt="Aragnation" /></a>
+  </div>
+  
+</div>
+
+<div class="fullartpiece">
+<a href="./static/img/aragnation_11.jpg"><img src="./static/img/aragnation_11.jpg" alt="Aragnation" /></a>
+</div>
+
+<div class="art">
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_12.jpg"><img src="./static/img/aragnation_12.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_13.jpg"><img src="./static/img/aragnation_13.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_14.jpg"><img src="./static/img/aragnation_14.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_15.jpg"><img src="./static/img/aragnation_15.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_16.jpg"><img src="./static/img/aragnation_16.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_17.jpg"><img src="./static/img/aragnation_17.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_18.jpg"><img src="./static/img/aragnation_18.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_19.jpg"><img src="./static/img/aragnation_19.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_20.jpg"><img src="./static/img/aragnation_20.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_21.jpg"><img src="./static/img/aragnation_21.jpg" alt="Aragnation" /></a>
+  </div>
+  
+</div>
+
+<div class="fullartpiece">
+<a href="./static/img/aragnation_22.jpg"><img src="./static/img/aragnation_22.jpg" alt="Aragnation" /></a>
+</div>
+
+<div class="art">
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_23.jpg"><img src="./static/img/aragnation_23.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_24.jpg"><img src="./static/img/aragnation_24.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_25.jpg"><img src="./static/img/aragnation_25.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_26.jpg"><img src="./static/img/aragnation_26.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_27.jpg"><img src="./static/img/aragnation_27.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_28.jpg"><img src="./static/img/aragnation_28.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_29.jpg"><img src="./static/img/aragnation_29.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_30.jpg"><img src="./static/img/aragnation_30.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_31.jpg"><img src="./static/img/aragnation_31.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_32.jpg"><img src="./static/img/aragnation_32.jpg" alt="Aragnation" /></a>
+  </div>
+  
+</div>
+
+<div class="fullartpiece">
+<a href="./static/img/aragnation_33.jpg"><img src="./static/img/aragnation_33.jpg" alt="Aragnation" /></a>
+</div>
+
+<div class="art">
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_34.jpg"><img src="./static/img/aragnation_34.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_35.jpg"><img src="./static/img/aragnation_35.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_36.jpg"><img src="./static/img/aragnation_36.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_37.jpg"><img src="./static/img/aragnation_37.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_38.jpg"><img src="./static/img/aragnation_38.jpg" alt="Aragnation" /></a>
+  </div>
+  
+  <div class="aragnationpiece">
+    <a href="./static/img/aragnation_39.jpg"><img src="./static/img/aragnation_39.jpg" alt="Aragnation" /></a>
+  </div>
+  
+</div>
+
+
+</div>
+      </div>
+      <center><span style="color:#bdc3c7;">Webpage design courtesy <a href = "https://abhishekdas.com/"> Abhishek Das</a>.</span></center>
+    </div>
+
+    <!-- Non empty -->
+
+    <!-- Google analytics -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-119138789-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript" src="static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
